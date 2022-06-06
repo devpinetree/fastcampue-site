@@ -34,3 +34,11 @@ $ npm run dev
 $ npm run build
 $ npm run deploy
 ```
+
+## Test
+
+- Jest
+
+```
+$ npm run test
+```
