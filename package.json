@@ -7,7 +7,9 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "docker": "docker build . -t fastcampus",
+    "docker:start": "docker run -p 3000:3000 fastcampus"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.25",
